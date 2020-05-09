@@ -1,0 +1,23 @@
+.center-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.background-grocery{
+    height:100vh;
+    filter: blur(1px);
+    filter: brightness(50%);
+    background-image: url("./Grocery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#NotMember:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

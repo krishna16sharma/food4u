@@ -1,0 +1,14 @@
+.black-bg{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2px;
+    padding-left: 5px;
+    color: white;
+    background: linear-gradient(to right, #130707 0%,#393434 100%);
+}
+@media only screen and (max-width:600px){
+    .black-bg{
+        font-size: 0.8rem;
+    }
+}

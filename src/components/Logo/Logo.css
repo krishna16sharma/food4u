@@ -1,0 +1,10 @@
+.home{
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./trianglify.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

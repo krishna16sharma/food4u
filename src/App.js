@@ -68,22 +68,11 @@ class App extends Component{
     }
 
     setProduct = (product) => {
-        console.log(product)
         this.setState({product : product});
-    }
-//Unused func
-    onRouteChange = ( route ) =>{
-        if(route === 'home'){
-            this.setState(initialState)
-        } else if( route === 'signin'){
-            this.setState({isSignedIn: true})//Change later
-        }
-            this.setState({route: route});
     }
 
   render(){
       const {route,isSignedIn,user,product,cart} = this.state;
-      //console.log(isSignedIn);
       console.log(localStorage.getItem("cartItems"));
         return(
         <Router history={history}>

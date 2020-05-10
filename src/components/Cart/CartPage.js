@@ -7,7 +7,6 @@ import history from '../../history';
 class CartPage extends React.Component{
     constructor(props){
         super(props);
-        //console.log(this.props.isSignedIn);
         this.state={
             cart:'',
             total: total
@@ -47,7 +46,6 @@ class CartPage extends React.Component{
 
     render(){
         const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-        console.log("CartPage",cartItems);
         return(
             <div>
                 <CartNav isSignedIn={this.props.isSignedIn} handleAccount={this.props.handleAccount} user={this.props.user} setProduct={this.props.setProduct}/>

@@ -29,8 +29,4 @@ export const addToCart= (name,price)=>{
     }
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
     cartItems = JSON.parse(localStorage.getItem("cartItems"));
-    console.log("Cart.js",cartItems);
 };
-
-
-//export default Cart;

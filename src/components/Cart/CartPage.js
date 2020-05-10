@@ -26,7 +26,6 @@ class CartPage extends React.Component{
     }
     CartItems = (cartItems)=>(
         cartItems.map((item)=>{
-            //console.log(item);
             return(
                 <div className='product'>
                     <div className='image'>

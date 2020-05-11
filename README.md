@@ -8,4 +8,4 @@ To run the website in your computer, follow these steps:
 2. Run `npm install`
 3. Run `npm start`
 
-The backend for this website can be found [here](/food4u-backend)
+The backend for this website can be found [here](https://github.com/krishna16sharma/food4u-backend)

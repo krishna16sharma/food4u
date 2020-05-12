@@ -104,40 +104,6 @@ ul {
   visibility: visible;
 }
 
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-
-.searchTerm {
-  width: 100%;
-  font-size: 16px;
-  border: 3px solid red;
-  border-right: none;
-  padding: 5px;
-  height: 36px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: red;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid red;
-  background: red;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
 #bootstrap-override{
     background-color: black;
     border: none;
@@ -161,9 +127,6 @@ ul {
     }
     .button,#bootstrap-override{
         font-size: 0.8rem;
-    }
-    .search{
-        width: 130px;
     }
 }
 
